@@ -1,0 +1,185 @@
+/*COMMON */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* LOGIN + SIGNUP PAGE */
+
+.login_page,
+.signup_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, #eef2ff, #dbeafe, #c7d2fe);
+}
+
+.login_page ._main,
+.signup_page ._main {
+    width: 420px;
+    height: 450px;
+    background: hsl(0, 0%, 94%);
+    padding: 25px 25px 30px;
+    border-radius: 26px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heading h1 {
+    font-size: 24px;
+    color: hsl(240, 71%, 43%);
+}
+
+._main p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-top: 18px;
+    color: #555;
+}
+
+._main a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+._main a:hover {
+    text-decoration: underline;
+}
+
+.main_body form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.main_body input {
+    height: 38px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.main_body input:focus {
+    border-color: #0d6efd;
+    outline: none;
+}
+
+.main_body button {
+    height: 40px;
+    background: hsl(216, 86%, 51%);
+    color: white;
+    margin: 8px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main_body button:hover {
+    background: #0b5ed7;
+}
+
+
+/* DASHBOARD PAGE*/
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dashboard_page {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.dashboard_page h1 {
+    margin-bottom: 20px;
+}
+
+.dashboard_page form {
+    margin-bottom: 20px;
+}
+
+.dashboard_page form input {
+    padding: 6px;
+    margin-right: 8px;
+}
+
+.dashboard_page form button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.dashboard_page table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+}
+
+.dashboard_page th,
+.dashboard_page td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.dashboard_page th {
+    background-color: #eee;
+}
+
+.dashboard_page button {
+    cursor: pointer;
+}
+
+.logout-btn {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    padding: 8px 14px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.logout-btn:hover {
+    background-color: #e60000;
+}
+
+#addUserBtn {
+    background-color: hsl(214, 69%, 77%);
+    color: white;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 8px 14px;
+    margin-bottom: 8px;
+    font-weight: 900;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.save {
+    background-color: hsl(102, 46%, 68%);
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 8px 14px;
+    margin-bottom: 8px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
